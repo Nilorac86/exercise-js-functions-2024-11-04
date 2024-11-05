@@ -82,19 +82,97 @@
 // Create a function called celsiusToFahrenheit that takes a temperature in Celsius 
 // as a parameter and logs the equivalent temperature in Fahrenheit to the console.
 
+// function celsiusToFahrenheit(celsius){
+    // const fahrenheit = celsius * 9/5 + 32;
+    // return fahrenheit;
+// 
+    // console.log (celsiusToFahrenheit);
+// }
+
 
 
 // #10. Full Name
 // Write a function named getFullName that takes two parameters, firstName and lastName, 
 // and logs the full name as a single string (e.g., "John Doe") to the console.
 
-function getFullName (firstName, lastName){
+// function getFullName (firstName, lastName){
 
-    const fullName = `${firstName} ${lastName}`;
+//     const fullName = `${firstName} ${lastName}`;
+    
+//     console.log (fullName);
+    
+// }
 
-    console.log (fullName);
-}
 
+// #11. Area of a Rectangle
+// create a function called calculateArea that takes the length and width of a rectangle 
+// as parameters and logs the area to the console.
 
+// function calculateArea (length, width) {
+// 
+    // const area = length * width; 
+    // return area; 
+// 
+    // console.log(calculateArea);
+// }
 
+// #12. Find Maximum
+// Write a function named findMax that takes two numbers as parameters and 
+// logs the larger of the two.
+
+// function findMax (num1,num2){
+
+//     if (num1 > num2){ 
+
+//         console.log(num1);
+//     } else {
+
+//         console.log(num2);
+//     }
+// }
+
+// // #13.
+
+// //Count Vowels
+
+// //Create a function called countVowels that takes a string as a 
+// //parameter and logs the number of vowels (a, e, i, o, u) in that string.
+
+// function countVowels (str){
+    
+//     let count = 0;
+//     const vowels = ["a", "e", "i", "o", "u"];
+
+//     for (const letter of str.toLowerCase()){
+//         if (vowels.includes(letter)){
+//             count++
+//         }
+//     }
+
+//     console.log (count);
+// }
+
+// #14. Discount Price
+// Write a function named calculateDiscount that takes the original price and the 
+// discount percentage as parameters and logs the price after discount to the console.
+
+// function calculateDiscount (originalPrice, discountPercentage){
+// 
+    // const discount = originalPrice * discountPercentage / 100 ;
+    // const priceAfterDiscount = originalPrice - discount;
+    // return priceAfterDiscount;
+// 
+// }
+
+// #15. Reverse String
+// Create a function called reverseString that takes a string as a parameter and 
+// logs the string reversed to the console.
+
+// function reverseString (str){
+
+//     let reversed = str.split('').reverse().join('');
+//     return reversed;
+
+// console.log(reverseString);
+// }
 
